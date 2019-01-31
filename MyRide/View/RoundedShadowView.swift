@@ -12,6 +12,7 @@ class RoundedShadowView: UIView {
     
     override func awakeFromNib() {
         setupView()
+   
     }
 
     func setupView() {
