@@ -21,6 +21,7 @@
 		AB6FBAA62201C5A200746E88 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAA52201C5A200746E88 /* LeftSidePanelVC.swift */; };
 		AB6FBAA92201CB8A00746E88 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAA82201CB8A00746E88 /* CenterVCDelegate.swift */; };
 		AB6FBAAB2201CEC800746E88 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAA2201CEC800746E88 /* ContainerVC.swift */; };
+		AB6FBAAE2202EC6600746E88 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		AB6FBAA52201C5A200746E88 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		AB6FBAA82201CB8A00746E88 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		AB6FBAAA2201CEC800746E88 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		AB6FBA8522005B9000746E88 /* MyRide */ = {
 			isa = PBXGroup;
 			children = (
+				AB6FBAAC2202EC2B00746E88 /* Extensions */,
 				AB6FBAA72201CB5F00746E88 /* Protocols */,
 				AB6FBA9A220178C700746E88 /* Model */,
 				AB6FBA99220178BE00746E88 /* View */,
@@ -142,6 +145,14 @@
 				AB6FBAA82201CB8A00746E88 /* CenterVCDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AB6FBAAC2202EC2B00746E88 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 				AB6FBAA62201C5A200746E88 /* LeftSidePanelVC.swift in Sources */,
 				AB6FBAA22201822F00746E88 /* CircleView.swift in Sources */,
 				AB6FBAAB2201CEC800746E88 /* ContainerVC.swift in Sources */,
+				AB6FBAAE2202EC6600746E88 /* UIViewExt.swift in Sources */,
 				AB6FBA8922005B9000746E88 /* HomeVC.swift in Sources */,
 				AB6FBA9E22017E5300746E88 /* RoundImageView.swift in Sources */,
 				AB6FBAA0220180E800746E88 /* RoundedShadowView.swift in Sources */,
