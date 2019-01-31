@@ -3,7 +3,7 @@
 //  MyRide
 //
 //  Created by Yogesh Rathore on 31/01/19.
-//  Copyright © 2019 Nissan Digital Hub. All rights reserved.
+//  Copyright © 2019 Yogesh Rathore All rights reserved.
 //
 
 import UIKit
