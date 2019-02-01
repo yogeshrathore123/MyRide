@@ -24,6 +24,7 @@
 		AB6FBAAE2202EC6600746E88 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */; };
 		AB6FBAB02202FF9900746E88 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAF2202FF9900746E88 /* LoginVC.swift */; };
 		AB6FBAB22204476F00746E88 /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAB12204476F00746E88 /* RoundedCornerTextField.swift */; };
+		AB6FBAB42204671E00746E88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB6FBAB32204671E00746E88 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		AB6FBAAF2202FF9900746E88 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		AB6FBAB12204476F00746E88 /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
+		AB6FBAB32204671E00746E88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				AB6FBA8D22005B9200746E88 /* Assets.xcassets */,
 				AB6FBA8F22005B9200746E88 /* LaunchScreen.storyboard */,
 				AB6FBA9222005B9200746E88 /* Info.plist */,
+				AB6FBAB32204671E00746E88 /* GoogleService-Info.plist */,
 			);
 			path = MyRide;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB6FBA9122005B9200746E88 /* LaunchScreen.storyboard in Resources */,
+				AB6FBAB42204671E00746E88 /* GoogleService-Info.plist in Resources */,
 				AB6FBA8E22005B9200746E88 /* Assets.xcassets in Resources */,
 				AB6FBA8C22005B9000746E88 /* Main.storyboard in Resources */,
 			);
@@ -456,7 +460,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nissandigital.MyRide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nissandigital.mytestapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nissandigital.MyRide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nissandigital.mytestapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
