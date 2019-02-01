@@ -23,6 +23,7 @@
 		AB6FBAAB2201CEC800746E88 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAA2201CEC800746E88 /* ContainerVC.swift */; };
 		AB6FBAAE2202EC6600746E88 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */; };
 		AB6FBAB02202FF9900746E88 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAAF2202FF9900746E88 /* LoginVC.swift */; };
+		AB6FBAB22204476F00746E88 /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FBAB12204476F00746E88 /* RoundedCornerTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		AB6FBAAA2201CEC800746E88 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		AB6FBAAD2202EC6600746E88 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		AB6FBAAF2202FF9900746E88 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AB6FBAB12204476F00746E88 /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				AB6FBA9B220178F200746E88 /* GradientView.swift */,
 				AB6FBAA12201822F00746E88 /* CircleView.swift */,
 				AB6FBAA32201AD7A00746E88 /* RoundedShadowButton.swift */,
+				AB6FBAB12204476F00746E88 /* RoundedCornerTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				AB6FBA8922005B9000746E88 /* HomeVC.swift in Sources */,
 				AB6FBA9E22017E5300746E88 /* RoundImageView.swift in Sources */,
 				AB6FBAA0220180E800746E88 /* RoundedShadowView.swift in Sources */,
+				AB6FBAB22204476F00746E88 /* RoundedCornerTextField.swift in Sources */,
 				AB6FBA8722005B9000746E88 /* AppDelegate.swift in Sources */,
 				AB6FBA9C220178F200746E88 /* GradientView.swift in Sources */,
 			);
